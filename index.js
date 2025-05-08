@@ -24,7 +24,7 @@ mongoose
   });
 
 // Routes
-app.use('/api/courses', coursesRouter);
+app.use('/', coursesRouter);
 
 // 404 handler
 app.all('*', (req, res, next) => {
